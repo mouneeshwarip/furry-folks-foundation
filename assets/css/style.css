@@ -1,3 +1,8 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
 /*Asterisk wildcard selector*/
 *{
     padding: 0;
@@ -10,11 +15,12 @@ body{
     display: flex;
     flex-direction: column;
     /*Generic project styles*/
-    color: #3a3a3a
+    color: #3a3a3a;
+    font-family: 'Crimson Pro', sans-serif;
 }
 /* header */
 header{
-    background-color:rgb(41, 156, 123);
+    background-color: green;
 }
 /*main content*/
 
