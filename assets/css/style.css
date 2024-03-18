@@ -20,7 +20,7 @@ body{
 }
 /* header */
 header{
-    background-color: green;
+    background-color: rgb(0, 229, 255);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -31,6 +31,16 @@ header{
 header a{
     text-decoration: none;
     color: inherit;
+}
+
+nav{
+    position: absolute;
+    background-color:  rgb(0, 229, 255);;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
 }
 
 h1{
@@ -58,11 +68,11 @@ menu > li {
 
 /*main content*/
 main{
-    background-color: brown;
+    background-color: white;
     /*Pull the main content down*/
     flex: 1 0 auto;
 }
 /* footer */
 footer{
-    background-color: green;
+    background-color:  rgb(0, 229, 255);;
 }
