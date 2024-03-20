@@ -92,7 +92,7 @@ main{
     background-color: white;
     /*Pull the main content down*/
     flex: 1 0 auto;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 /* Footer */
 footer{
@@ -107,7 +107,7 @@ footer{
     font-size: 160%;
 }
 #add{
-    font-size: 90% ;
+    font-size: 70% ;
 }
 #socialmedia-networks{
     text-align: right;
@@ -170,9 +170,7 @@ footer{
         /* Push main content down to accommodate larger header */
         margin-top: 230px;
     }
-    #add{
-        font-size: 50%;
-    }
+    
         
     }
     
@@ -190,6 +188,12 @@ footer{
     #socialmedia-networks a i {
         font-size: 42px; /* Adjust icon size */
     }
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 80px;
+    }
+
    
 } 
 
