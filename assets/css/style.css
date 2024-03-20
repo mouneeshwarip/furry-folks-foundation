@@ -64,7 +64,7 @@ menu > li {
 
 nav{
     position: absolute;
-    background-color:  rgb(0, 229, 255);;
+    background-color:  rgb(0, 229, 255);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -94,10 +94,46 @@ main{
     flex: 1 0 auto;
     margin-top: 120px;
 }
-/* footer */
+/* Footer */
 footer{
     background-color:  rgb(0, 229, 255);
-   
+    padding: 20px;
+    color: black;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 160%;
+}
+#add{
+    font-size: 90% ;
+}
+#socialmedia-networks{
+    text-align: right;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+#socialmedia-networks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#socialmedia-networks a {
+    text-decoration: none;
+    color: rgb(201, 40, 67); /* Set text color */
+}
+
+#socialmedia-networks a i {
+    font-size: 24px; /* Adjust icon size */
+}
+
+#socialmedia-networks a + a {
+    margin-left: 20px; /* Add spacing between social media links */
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -134,7 +170,13 @@ footer{
         /* Push main content down to accommodate larger header */
         margin-top: 230px;
     }
-}
+    #add{
+        font-size: 50%;
+    }
+        
+    }
+    
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -142,6 +184,13 @@ footer{
         border-bottom: 1px solid #3a3a3a;
       
     }
+    #add{
+        font-size: 130%;
+    }
+    #socialmedia-networks a i {
+        font-size: 42px; /* Adjust icon size */
+    }
+   
 } 
 
 /* Media query- tablets and larger(768px and up)
