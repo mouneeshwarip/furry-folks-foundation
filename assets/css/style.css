@@ -1,18 +1,17 @@
-
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
 
 /*Asterisk wildcard selector*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 /*Generic Styles*/
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,7 +21,7 @@ body{
 }
 
 /* header */
-header{
+header {
     background-color: rgb(255, 209, 192);
     padding: 0 1rem;
     position: fixed;
@@ -34,35 +33,35 @@ header{
     align-items: center;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: inherit;
 }
 
 
-h1{
+h1 {
     font-family: 'Galindo', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: black;
 }
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-menu > li {
+menu>li {
     margin-bottom: 1em;
 }
 
-#menu > li > a:hover{
+#menu>li>a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /* nav bar position with dropdown toggle */
-nav{
+nav {
     position: absolute;
     width: 100%;
     left: 0;
@@ -73,35 +72,37 @@ nav{
 }
 
 /*nav-toggle*/
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
     display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
     padding: 10px;
 }
 
 label {
-    cursor: grab; /* Change cursor to pointer */
+    cursor: grab;
+    /* Change cursor to pointer */
 }
 
 /*main content*/
-main{
+main {
     /*Pull the main content down*/
     flex: 1 0 auto;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 /* styling the hero part of main page*/
-#hero{
-     height: 300px;
-     width: 100%;
-     position: relative; /* position relative to allow absolute positioning of content */
+#hero {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    /* position relative to allow absolute positioning of content */
 }
 
 #hero video {
@@ -110,19 +111,21 @@ main{
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the video covers the entire hero section */
-    z-index: -1; /*Move the video behind other content */
-} 
+    object-fit: cover;
+    /* Ensure the video covers the entire hero section */
+    z-index: -1;
+    /*Move the video behind other content */
+}
 
 /*style the button on hero video*/
-#button{
+#button {
     position: absolute;
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.btn{
+.btn {
     display: inline-block;
     padding: 15px 25px;
     font-size: 18px;
@@ -135,26 +138,29 @@ main{
 }
 
 .btn:hover {
-    background-color: #aa0a0a; 
+    background-color: #aa0a0a;
 }
 
 .btn i {
-    margin-left: 5px; /*space between text and icon */
+    margin-left: 5px;
+    /*space between text and icon */
 }
 
 /*styling the quote*/
 #quote p {
     text-align: center;
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0;
+    /* Light gray background */
     padding: 20px;
     border-radius: 10px;
     color: green;
 }
 
 #quote i {
-    color: green; 
-    font-size: 17px; 
-    margin-left: 7px; /*spacing between the quote and the icon */
+    color: green;
+    font-size: 17px;
+    margin-left: 7px;
+    /*spacing between the quote and the icon */
 }
 
 /*style the success story section*/
@@ -163,49 +169,67 @@ main{
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-top: 10px;
   }
 
-.success-story {
+  .success-story {
     text-align: center;
-    width: 30%; 
-    margin: 10px;
+    width: 30%; /* Adjust as needed */
+    margin: 10px 0;
   }
-  
+
+  .success-story img {
+    max-width: 100%;
+    height: 120px;
+    border-radius: 20px;;
+  }
+
+  .success-story p {
+    margin-top: 10px;
+  }
+
+/*.success-story {
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+}
+
 .success-story img {
     max-width: 100%;
     height: 400px;
     border-radius: 40px;
-  }
-
-.success-story p{
-    font-family: "Schoolbell" , sans-serif;
-    color: rgb(221, 56, 56);
 }
-     
+
+.success-story p {
+    font-family: "Schoolbell", sans-serif;
+    color: rgb(221, 56, 56);
+}*/
+
 /* Footer */
-footer{
-    background-color:   rgb(255, 209, 192);;
+footer {
+    background-color: rgb(255, 209, 192);
+    ;
     padding: 20px;
     color: black;
     /*padding-bottom to push content above the footer */
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 160%;
 }
 
-#add{
-    font-size: 70% ;
+#add {
+    font-size: 70%;
 }
 
-#socialmedia-networks{
+#socialmedia-networks {
     text-align: right;
     padding: 20px 0;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
 }
 
@@ -218,19 +242,23 @@ footer{
 
 #socialmedia-networks a {
     text-decoration: none;
-    color: rgb(201, 40, 67); /* Set text color */
+    color: rgb(201, 40, 67);
+    /* Set text color */
 }
 
 #socialmedia-networks a i {
-    font-size: 24px; /* Adjust icon size */
+    font-size: 24px;
+    /* Adjust icon size */
 }
 
-#socialmedia-networks a + a {
-    margin-left: 20px; /* Add spacing between social media links */
+#socialmedia-networks a+a {
+    margin-left: 20px;
+    /* Add spacing between social media links */
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -244,14 +272,15 @@ footer{
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
-   .nav-toggle-label {
+
+    .nav-toggle-label {
         display: none;
     }
-    
-   #logo {
+
+    #logo {
         font-size: 280%;
         line-height: 55px;
         margin: 0 0.5rem;
@@ -263,45 +292,81 @@ footer{
         margin-top: 160px;
     }
 
-    #hero{
-        height: 300px;
+    #hero {
+        height: 400px;
         width: 100%;
     }
+
+    .success-story img {
+        max-width: 100%;
+        height: 200px;
+        border-radius: 40px;;
+      }
+
+
+    /*#success-stories {
+        flex-direction: column;
+    }
+
+    .success-story {
+        width: 100%;
+    }*/
+
 }
-    
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #add{
+    #add {
         font-size: 130%;
     }
+
     #socialmedia-networks a i {
-        font-size: 42px; /* Adjust icon size */
+        font-size: 42px;
+        /* Adjust icon size */
     }
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 50px;
     }
-    #hero{
+
+    #hero {
         height: 700px;
         width: 100%;
     }
 
+    
+
     /*styling the quote*/
     #quote p {
         text-align: center;
-        background-color: #f0f0f0; /* Light gray background */
+        background-color: #f0f0f0;
+        /* Light gray background */
         padding: 20px;
         border-radius: 10px;
         color: green;
         font-size: 40px;
-}
+    }
 
-     #quote i {
-        color: green; 
-        font-size: 35px; 
-        margin-left: 7px; /*spacing between the quote and the icon */
-}
-    
-} 
+    #quote i {
+        color: green;
+        font-size: 35px;
+        margin-left: 7px;
+        /*spacing between the quote and the icon */
+    }
 
+    .success-story img {
+        max-width: 100%;
+        height: 400px;
+        border-radius: 40px;;
+      }
+
+    /*#success-stories {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }*/
+
+}
