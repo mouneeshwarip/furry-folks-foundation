@@ -206,41 +206,8 @@ main {
     text-align: justify;
 }
 
-/*.success-story {
-    text-align: center;
-    width: 30%;
-    margin: 10px;
-}
-
-.success-story img {
-    max-width: 100%;
-    height: 400px;
-    border-radius: 40px;
-}
-
-.success-story p {
-    font-family: "Schoolbell", sans-serif;
-    color: rgb(221, 56, 56);
-}*/
-
-/* Footer */
-footer {
-    background-color: rgb(255, 209, 192);
-    padding: 20px;
-    color: black;
-    /*padding-bottom to push content above the footer */
-    padding-bottom: 20px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 160%;
-}
-
 #add {
-    font-size: 70%;
+    font-size: 40%;
 }
 
 #socialmedia-networks {
@@ -250,7 +217,7 @@ footer {
     justify-content: space-evenly;
 }
 
-#socialmedia-networks {
+#socialmedia-networks{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -260,17 +227,38 @@ footer {
 #socialmedia-networks a {
     text-decoration: none;
     color: rgb(201, 40, 67);
-    /* Set text color */
 }
 
 #socialmedia-networks a i {
     font-size: 24px;
-    /* Adjust icon size */
 }
 
 #socialmedia-networks a+a {
     margin-left: 20px;
-    /* Add spacing between social media links */
+}
+
+/*Adoption Page*/
+#banner img{
+        width: 100%; /* Adjust the width to 100% of its container */
+        height: 30px; /* Maintain aspect ratio */
+        max-width: 500px; /* Limit the maximum width of the image */
+    }
+
+
+/* Footer */
+footer {
+    background-color: rgb(255, 209, 192);
+    color: black;
+    /*padding-bottom to push content above the footer */
+   
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 160%;
+    padding: 0 10px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -288,6 +276,8 @@ footer {
 
     #menu {
         display: flex;
+        align-items: center; /* Center menu items vertically */
+        justify-content: flex-end;
     }
 
     #menu>li {
@@ -326,22 +316,12 @@ footer {
         font-family: "Schoolbell", sans-serif ;
        
     }
-
-
-    /*#success-stories {
-        flex-direction: column;
-    }
-
-    .success-story {
-        width: 100%;
-    }*/
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #add {
-        font-size: 130%;
+        font-size: 90%;
     }
 
     #socialmedia-networks a i {
@@ -395,12 +375,4 @@ footer {
     .success-story p{
         font-size: 30px;
     }  
-
-    /*#success-stories {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }*/
-
 }
