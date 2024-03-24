@@ -13,6 +13,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"> 
+   <!--Bootstrap--> 
+   <link rel="stylesheet" href="path/to/bootstrap.min.css">
    <!--css-->
    <link rel="stylesheet" href="assets/css/style.css">  
 </head>
@@ -38,9 +40,55 @@
     </header>
     <!--Main content-->
     <main>
+        <!--banner section-->
         <div id="banner">
             <img src="assets/images-and-videos/adoption.jpeg" alt="cute pics of animals for adoption">
-        </div>    
+        </div> 
+        <!--form section-->
+        <div class="form-container">
+            <form id="adoption-form" method="post" action="">
+                <h2>Adoption Form <i class="fa-solid fa-heart"></i></h2>
+                <br>
+                <label for="first-name" class="">First name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last name</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email address" id="email address" class="text-input" required>
+                <br>
+                <div class="dropdown">
+                    <label for="name-of-animalspecies">Name of animal species you are interested in adopting:</label>
+                    <select name="name-of-animalspecies" id="name-of-animalspecies">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="pig">Pig</option>
+                        <option value="Guinea pig">Guinea Pig</option>
+                    </select>
+                </div>
+                <div class="radiobutton">
+                    <p>Gender:</p>
+                    <div>
+                         <label for="male">Male</label>
+                         <input type="radio" name="gender" id="male" value="male" required checked>
+                    </div>
+                    <div>
+                         <label for="female">Female</label>
+                         <input type="radio" name="gender" id="female" value="female" required>
+                    </div>
+                </div>
+                <div class="text-area">
+                   <label for="reason">Reason For Adoption:</label>
+                   <br>
+                   <textarea name="reason" id="reason" placeholder="Type your reason here" rows="10" cols="40"></textarea>
+                </div>
+                <button type="submit" class="Adopt">Adopt</button>
+                
+
+            </form>
+        </div> 
+          
     </main>
     <!--Footer-->
     <footer>

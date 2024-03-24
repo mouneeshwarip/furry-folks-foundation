@@ -239,11 +239,17 @@ main {
 
 /*Adoption Page*/
 #banner img{
-        width: 100%; /* Adjust the width to 100% of its container */
-        height: 30px; /* Maintain aspect ratio */
-        max-width: 500px; /* Limit the maximum width of the image */
+        width: 100%;
+        margin-top: 30px;
     }
-
+ /*adoption form*/
+ .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust height as needed */
+}   
 
 /* Footer */
 footer {
