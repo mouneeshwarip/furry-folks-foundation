@@ -238,28 +238,31 @@ main {
 }
 
 /*Adoption Page*/
+#banner{
+    margin-top: 30px;
+}
 #banner img{
         width: 100%;
         margin-top: 30px;
     }
  /*adoption form*/
  .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-left: 20px;
-    margin-top: 40px;
+    background-color: rgb(208, 126, 126); 
+    padding: 20px;
+    border-radius: 30px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    width: 80%; 
+    max-width: 500px; 
+    margin: 40px auto; /* Center the form container horizontally and provide top and bottom margin */
    }   
 .form-fields{
     display: inline-block; 
-    margin-bottom: 5px; 
-    
-}
+    /*margin-bottom: 3px;*/
+    }
 #adoption-form input {
-    display: block; /* Display form inputs as blocks */
-    width: 100%; /* Make input fields fill the available space */
-    margin-bottom: 5pxpx; /* Add some space between form elements */
+    display: block; 
+    width: 100%;
+    margin-bottom: 5px; /* Add some space between form elements */
     padding: 10px; /* Add padding inside the input box */
     border: 1px solid #ccc; /* Add a border around the input box */
     border-radius: 5px; /* Add rounded corners to the input box */
@@ -268,7 +271,7 @@ main {
 }
 
 #adoption-form input:focus {
-    border-color: #007bff; /* Change border color when input box is focused */
+    border-color: #bb6249; /* Change border color when input box is focused */
     outline: none; /* Remove default focus outline */
 }
 /* Footer */
