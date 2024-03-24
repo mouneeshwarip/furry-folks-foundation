@@ -259,6 +259,11 @@ main {
     display: inline-block; 
     /*margin-bottom: 3px;*/
     }
+#adoption-form h2{
+    text-align: center;
+    margin-top: 30px;
+    color:hsl(13, 88%, 45%);;
+}    
 #adoption-form input {
     display: block; 
     width: 100%;
@@ -274,6 +279,22 @@ main {
     border-color: #bb6249; /* Change border color when input box is focused */
     outline: none; /* Remove default focus outline */
 }
+/*styling the submit button*/
+.adopt-btn{
+    display: block; 
+    background-color: hsl(13, 88%, 45%);;
+    margin: 5px auto;
+    padding: 7px 20px;
+    border: black; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+}
+.adopt-btn:hover{
+    background-color:  #eb5228;
+}
+
+
 /* Footer */
 footer {
     background-color: rgb(255, 209, 192);
@@ -404,4 +425,9 @@ footer {
     .success-story p{
         font-size: 30px;
     }  
+
+    /*adoption form style*/
+    #adoption-form h2{
+        font-size: 40px;
+    }
 }
