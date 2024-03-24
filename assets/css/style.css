@@ -248,9 +248,29 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* Adjust height as needed */
-}   
+    margin-left: 20px;
+    margin-top: 40px;
+   }   
+.form-fields{
+    display: inline-block; 
+    margin-bottom: 5px; 
+    
+}
+#adoption-form input {
+    display: block; /* Display form inputs as blocks */
+    width: 100%; /* Make input fields fill the available space */
+    margin-bottom: 5pxpx; /* Add some space between form elements */
+    padding: 10px; /* Add padding inside the input box */
+    border: 1px solid #ccc; /* Add a border around the input box */
+    border-radius: 5px; /* Add rounded corners to the input box */
+    box-sizing: border-box; /* Include padding and border in the width/height of the input box */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
 
+#adoption-form input:focus {
+    border-color: #007bff; /* Change border color when input box is focused */
+    outline: none; /* Remove default focus outline */
+}
 /* Footer */
 footer {
     background-color: rgb(255, 209, 192);
