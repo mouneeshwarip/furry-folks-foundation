@@ -293,10 +293,62 @@ main {
 .adopt-btn:hover{
     background-color:  #eb5228;
 }
-/*style the thankyou page*/
-.thanyou-main{
-    margin-top: 50px;
+
+/*contact us page*/
+#contact-us h2{
+    text-align: center;
+    margin-top: 30px;
+    color:hsl(13, 88%, 45%);;
+}    
+#contact-us input {
+    display: block; 
+    width: 100%;
+    margin-bottom: 5px; /* Add some space between form elements */
+    padding: 10px; /* Add padding inside the input box */
+    border: 1px solid #ccc; /* Add a border around the input box */
+    border-radius: 5px; /* Add rounded corners to the input box */
+    box-sizing: border-box; /* Include padding and border in the width/height of the input box */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
 }
+
+/*style the thankyou page*/
+.thankyou-main{
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set the height of the main element to the full viewport height */
+}
+
+#thankyou {
+    text-align: center; /* Center-align text within the div */
+    margin: auto; /* Center the div horizontally */
+}
+#thankyou i{
+    color: #eb5228;
+}
+
+/*style the volunteer page*/
+.volunteer-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.volunteer-container img{
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text{
+    flex: 1;
+}
+ /* Alternate image and text position */
+ .volunteer-container:nth-child(even) img,
+ .volunteer-container:nth-child(odd) .text {
+     order: 1; /* Swap order for even numbered sections */
+ }
+ 
 /* Footer */
 footer {
     background-color: rgb(255, 209, 192);
@@ -431,5 +483,16 @@ footer {
     /*adoption form style*/
     #adoption-form h2{
         font-size: 40px;
+    }
+    /*thank you page style*/
+    #thankyou{
+        font-size: 40px;
+    }
+    /*style the volunteer page for larger screens
+    /* Adjust image size for laptops and larger screens */
+    .volunteer-container img {
+        max-width: 30%;
+        height: auto;
+        margin-right: 20px;
     }
 }

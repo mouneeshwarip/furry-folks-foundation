@@ -37,7 +37,42 @@
         </nav>
     </header>
     <!--Main content-->
-    <main>Main content</main>
+    <main>
+        <!--form section-->
+        <form id="contact-us" method="GET" action="thankyou.html">
+            <h2>Contact Us <i class="fa-solid fa-paw"></i></h2>
+        <div class="form-container">
+                <label for="first-name" class="form-fields">First name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name" class="form-fields">Last name</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email" class="form-fields">E-mail</label>
+                <input type="email" name="email address" id="email address" class="text-input" required>
+                <br>
+                <div class="dropdown">
+                    <label for="info" class="form-fields">How do know us?</label>
+                    <select name="info" id="info">
+                        <option value="From a Friend">From a Friend</option>
+                        <option value="Online">Online</option>
+                        <option value="pig">Advertisement</option>
+                    </select>
+                </div>
+                <div class="text-area">
+                   <label for="reason" class="form-fields">Reason For Contacting us:</label>
+                   <br>
+                   <textarea name="reason" id="reason" placeholder="Type your reason here" rows="5" cols="30"></textarea>
+                </div>
+
+                <button type="submit" class="adopt-btn">Adopt</button>
+                
+
+            </form>
+        </div>
+          
+    </main>
+    </main>
     <!--Footer-->
     <footer>
         <div class="footer-content">
