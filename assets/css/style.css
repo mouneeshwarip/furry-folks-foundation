@@ -293,8 +293,10 @@ main {
 .adopt-btn:hover{
     background-color:  #eb5228;
 }
-
-
+/*style the thankyou page*/
+.thanyou-main{
+    margin-top: 50px;
+}
 /* Footer */
 footer {
     background-color: rgb(255, 209, 192);
