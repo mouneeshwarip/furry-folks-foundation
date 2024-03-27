@@ -208,6 +208,11 @@ main {
     /*spacing between the quote and the icon */
 }
 
+/*about-us section*/
+.container h2{
+    margin-top: 10px;
+}
+
 /*style the success story section*/
 #success-stories {
     display: flex;
