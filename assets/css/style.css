@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Ruslan+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Rampart+One&family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 /*Asterisk wildcard selector*/
@@ -28,7 +29,8 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Agbalumo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
 }
 
 
@@ -60,8 +62,10 @@ h1 {
 
 #menu {
     font-size: 110%;
+    color: #ccc;
     letter-spacing: 4px;
     list-style-type: none;
+    padding: 10px;
 }
 
 menu>li {
@@ -88,7 +92,7 @@ nav {
     height: 100%;  
     top: 94px; /* Adjust this value to ensure the menu appears below the header */
     left: 0;
-    background-color:#eb5228; /* Adjust the background color and transparency */
+    background-color: grey; /* Adjust the background color and transparency */
     z-index: 98; /* Ensure the menu appears above other content */
     display: flex;
     flex-direction: column;
@@ -104,21 +108,19 @@ nav {
     right: 20px; /* Adjust the distance from the right */
     z-index: 99; /* Ensure the toggle appears above other content */
 }
-
+#nav-toggle {
+    display: none; /* Hide the checkbox */
+}
 /* Show the navigation menu when the toggle is checked */
 #nav-toggle:checked ~ nav {
     transform: translateX(0); /* Move the menu back onto the screen */
 }
 
 
-/*nav-toggle
+/*
 #nav-toggle:checked~nav {
     display: block;
 }*/
-
-#nav-toggle {
-    display: none;
-}
 
 .nav-toggle-label {
     font-size: 2rem;
@@ -238,12 +240,13 @@ main {
 /*style the about-us section*/
 .container h2{
     text-align: center;
-    font-family: "Rampart One",sans-serif;
+    font-family: "Roboto",sans-serif;
+    margin-bottom: 10px;
     color: hsl(13, 88%, 45%);
 }
 
 .container p{
-    font-family: "Agbalumo",sans-serif;
+    font-family: "Roboto",sans-serif;
     text-align: justify;
 }
 
@@ -430,64 +433,6 @@ footer {
     padding: 0 10px;
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        text-align: center;
-    }
-
-    #menu {
-        display: flex;
-        align-items: center; /* Center menu items vertically */
-        justify-content: flex-end;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 55px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 180px;
-    }
-
-    #hero {
-        height: 400px;
-        width: 100%;
-    }
-
-    .success-story img {
-        max-width: 100%;
-        height: 200px;
-        border-radius: 40px;;
-    }
-
-    .success-story p{
-        margin-top: 5px;
-        font-family: "Schoolbell", sans-serif ;
-       
-    }
-    
-}
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #add {
@@ -498,6 +443,7 @@ footer {
         font-size: 42px;
         /* Adjust icon size */
     }
+
 
     /* Main content */
     main {
@@ -510,9 +456,7 @@ footer {
         width: 100%;
     }
 
-   
-
-   /*styling the quote*/
+    /*styling the quote*/
     #quote p {
         text-align: center;
         background-color: #f0f0f0;
@@ -575,3 +519,95 @@ footer {
     
     
 }
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+   /* Header */
+    header {
+        justify-content: space-between; /* Ensure logo and navigation are at opposite ends */
+    }
+    
+     /* Hide the navigation toggle for larger viewports */
+     #nav-toggle {
+        display: none;
+    }
+   
+    /* Show the navigation menu */
+    nav {
+        position: relative;
+        background-color: rgb(255, 209, 192);
+        top: 10px;
+        justify-content: flex-end; /* Align menu items to the right */
+        padding: 5px;
+        transform: translateX(0); /* Ensure the menu is visible */
+    }
+
+    #menu {
+        display: flex;
+        align-items: center; /* Center menu items vertically */
+        color: hsl(13, 88%, 45%);
+        padding-right: 5px;
+    }
+
+    #menu li {
+        margin-left: 10px;
+    }
+
+    #menu li a {
+        font-size: 30px;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
+
+   /* #menu {
+        display: flex;
+        align-items: center; /* Center menu items vertically
+        justify-content: flex-end;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }*/
+
+    #logo {
+        font-size: 280%;
+        line-height: 55px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 180px;
+    }
+
+    #hero {
+        height: 400px;
+        width: 100%;
+    }
+
+    .success-story img {
+        max-width: 100%;
+        height: 200px;
+        border-radius: 40px;;
+    }
+
+    .success-story p{
+        margin-top: 5px;
+        font-family: "Schoolbell", sans-serif ;
+       
+    }
+    
+}
+
