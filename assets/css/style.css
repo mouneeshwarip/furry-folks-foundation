@@ -116,6 +116,10 @@ nav {
     transform: translateX(0); /* Move the menu back onto the screen */
 }
 
+#menu .active{
+    font-weight: bold;
+}
+
 
 /*
 #nav-toggle:checked~nav {
@@ -332,7 +336,7 @@ main {
 /*styling the submit button*/
 .adopt-btn{
     display: block; 
-    background-color: hsl(13, 88%, 45%);;
+    background-color: hwb(186 80% 12%);
     margin: 5px auto;
     padding: 7px 20px;
     border: black; /* No border */
@@ -341,7 +345,7 @@ main {
     font-size: 16px; /* Font size */
 }
 .adopt-btn:hover{
-    background-color:  #eb5228;
+    background-color:  hsl(28, 71%, 66%);
 }
 
 /*contact us page*/
@@ -379,40 +383,34 @@ main {
 
 /*style the volunteer page*/
 .volunteer-container{
-    display: flex;
-    align-items: center;
+    display: block;
+    text-align: center;
     margin-top: 20px; /* Add margin to the top*/
     margin-bottom: 30px;
 }
 
 .volunteer-container img{
-    max-width: 50%;
+    display: block;
+    max-width: 100%;
     max-height: 400px;
     height: auto;
-    margin-right: 20px;
+    margin: 0 auto;
     border-radius: 30px;
 }
-
-#pic-right{
-    margin-right: 5px;
- }
-
-
 .text{
-    flex: 1;
     margin-top: 20px;
-}
+    font-family: "Schoolbell", sans-serif;
+    text-align: justify;
+    color: #e21010;
+    font-size: 20px;
 
- /* Alternate image and text position */
- .volunteer-container:nth-child(even) img,
- .volunteer-container:nth-child(odd) .text {
-     order: 1; /* Swap order for even numbered sections */
- }
+}
+ 
  /*style the p*/
  #link-to-nextpage{
     text-align: center;
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     word-spacing: 5px;
  }
@@ -435,6 +433,7 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     #add {
         font-size: 90%;
     }
@@ -449,13 +448,36 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 150px;
+        margin-right: 20px;
+        margin-left: 60px;
     }
 
     #hero {
-        height: 700px;
         width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #hero video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensure the video covers the entire section */
+        object-position: center; /* Center the video within the hero section */
     }
 
+    /*#hero {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #hero video {
+        width: 100%;
+        min-width: 100%; 
+        min-height: 100 vw; /* 9/16 aspect ratio 
+    }*/
+    
     /*styling the quote*/
     #quote p {
         text-align: center;
@@ -469,7 +491,7 @@ footer {
 
     #quote i {
         color: green;
-        font-size: 35px;
+        font-size: 30px;
         margin-left: 7px;
         /*spacing between the quote and the icon */
     }
@@ -500,7 +522,7 @@ footer {
     .success-story img {
         max-width: 100%;
         height: 400px;
-        border-radius: 40px;;
+        border-radius: 40px;
       }
 
     .success-story p{
@@ -517,22 +539,44 @@ footer {
     }
     /*style the volunteer page for larger screens*/
     .volunteer-container{
+        display: flex;
+        align-items: center;
+        margin-top: 20px; /* Add margin to the top*/
+        margin-bottom: 30px;
         margin-left: 100px;
     }
-    /* Adjust image size for laptops and larger screens */
-    .volunteer-container img {
+    
+    .volunteer-container img{
         max-width: 30%;
+        max-height: 400px;
         height: auto;
         margin-right: 5px;
+        border-radius: 30px;
     }
-    #pic-left{
+    
+    #pic-right{
+        margin-right: 5px;
+     }
+     #pic-left{
         padding-right: 20px;
     }
+    
     .text{
+        flex: 1;
+        margin-top: 20px;
+        font-family: "Schoolbell", sans-serif;
+        color: #e21010;
         font-size: 30px;
     }
-    
-    
+    /* Alternate image and text position */
+    .volunteer-container:nth-child(even) img,
+    .volunteer-container:nth-child(odd) .text {
+         order: 1; /* Swap order for even numbered sections */
+ }
+ /*contact us form*/
+ #contact-us h2{
+    font-size: 40px;
+ }
 }
 
 
@@ -563,6 +607,7 @@ footer {
         align-items: center; /* Center menu items vertically */
         color: hsl(13, 88%, 45%);
         padding-right: 10px;
+        letter-spacing: 2px;
     }
 
     #menu li {
@@ -624,7 +669,7 @@ footer {
 
     .success-story img {
         max-width: 100%;
-        height: 200px;
+        height: 300px;
         border-radius: 40px;;
     }
 
@@ -633,6 +678,43 @@ footer {
         font-family: "Schoolbell", sans-serif ;
        
     }
+    /*style Volunteer page*/
+    .volunteer-container{
+        display: flex;
+        align-items: center;
+        margin-top: 20px; /* Add margin to the top*/
+        margin-bottom: 30px;
+        margin-left: 100px;
+    }
+    
+    .volunteer-container img{
+        max-width: 30%;
+        max-height: 400px;
+        height: auto;
+        margin-right: 5px;
+        border-radius: 30px;
+    }
+    
+    #pic-right{
+        margin-right: 10px;
+        padding-left: 5px;
+     }
+     #pic-left{
+        padding-right: 10px;
+    }
+    
+    .text{
+        flex: 1;
+        margin-top: 20px;
+        font-family: "Schoolbell", sans-serif;
+        color: #e21010;
+        font-size: 30px;
+    }
+     /* Alternate image and text position */
+     .volunteer-container:nth-child(even) img,
+     .volunteer-container:nth-child(odd) .text {
+          order: 1; /* Swap order for even numbered sections */
+  }
     
 }
 
