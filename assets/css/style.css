@@ -236,16 +236,16 @@ main {
     display: flex;
 }
 
-#socialmedia-networks a {
+#socialmedia-networks li a {
     text-decoration: none;
     color: rgb(201, 40, 67);
 }
 
-#socialmedia-networks a i {
+#socialmedia-networks li a i {
     font-size: 24px;
 }
 
-#socialmedia-networks a+a {
+#socialmedia-networks li a+a {
     margin-left: 20px;
 }
 
@@ -404,7 +404,7 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-    #add {
+    address {
         font-size: 90%;
     }
 
