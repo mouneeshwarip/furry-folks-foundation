@@ -210,29 +210,26 @@ main {
 
 /*style the success story section*/
 #success-stories {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    display: block;
+    justify-content: center;
     margin-top: 10px;
   }
 
   .success-story {
     text-align: center;
-    width: 30%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
     margin: 10px 0;
   }
 
   .success-story img {
     max-width: 100%;
-    height: 120px;
     border-radius: 20px;;
   }
 
   .success-story p {
     margin-top: 10px;
     font-family: "Schoolbell", sans-serif;
-    text-align: left;
+    text-align: justify;
     color: #e21010;
     font-size: 20px;
 }
@@ -485,6 +482,21 @@ footer {
         font-size: 30px;
     }
 
+    /*style success story section*/
+    #success-stories {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
+    
+      .success-story {
+        text-align: center;
+        width: 30%; /* Adjust as needed */
+        margin: 10px 0;
+      }
+
     .success-story img {
         max-width: 100%;
         height: 400px;
@@ -595,6 +607,20 @@ footer {
         height: 400px;
         width: 100%;
     }
+    /*style success-story section*/
+    #success-stories {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
+    
+      .success-story {
+        text-align: center;
+        width: 30%; /* Adjust as needed */
+        margin: 10px 0;
+      }
 
     .success-story img {
         max-width: 100%;
