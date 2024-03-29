@@ -389,6 +389,8 @@ main {
 footer {
     background-color: rgb(255, 209, 192);
     color: black;
+    height: auto;
+    padding: 10px;
     /*padding-bottom to push content above the footer */
    
 }
@@ -397,8 +399,15 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 160%;
-    padding: 0 10px;
+    padding: 0 5px;
+}
+
+.footer-content address{
+    font-size: 12px;
+}
+
+#socialmedia-networks li{
+    padding: 5px;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
