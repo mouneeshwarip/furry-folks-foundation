@@ -339,7 +339,6 @@ main {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 100vh; 
 }
 
 #thankyou {
@@ -524,10 +523,10 @@ footer {
         border-radius: 30px;
     }
     
-    #pic-right{
+    .pic-right{
         margin-right: 5px;
      }
-     #pic-left{
+    .pic-left{
         padding-right: 20px;
     }
     
@@ -649,11 +648,11 @@ footer {
         border-radius: 30px;
     }
     
-    #pic-right{
+    .pic-right{
         margin-right: 10px;
         padding-left: 5px;
      }
-     #pic-left{
+    .pic-left{
         padding-right: 10px;
     }
     
