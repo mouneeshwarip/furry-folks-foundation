@@ -110,7 +110,7 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 * The header of the Home Page prominently displays the FFF logo alongside the navigation menu, providing users with easy access to explore the website.
 
 ### Home Page 
-![Home Page](assets/images-and-videos/home_page.png)
+![Home Page](assets/images-and-videos/homepage_screenshot.png)
 
 * The Home Page is the initial gateway to our website, featuring a captivating animal video and an emotional slogan aimed at fostering connection and empathy. A prominent "Join Us" button invites immediate action, guiding users to explore further. Heartwarming animal stories and essential navigation links complete the immersive experience.  <br>
 [Live Page Here](https://mouneeshwarip.github.io/furry-folks-foundation/index.html)
