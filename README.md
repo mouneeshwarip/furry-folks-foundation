@@ -26,9 +26,8 @@ To get started with the Furry Folks Foundation website, simply visit https://mou
     * [interactive Links](#interactive-links) 
 * [Features](#features)  
     * [Home Page Header](#home-page-header)
-    * [video with quote](#video-and-quote)
+    * [Home Page](#home-page)
     * [About Section](#aboutus-section)
-    * [success stories](#stories by rescued animals) 
     * [Footer Section](#footer-section)
     * [Volunteer Page](#Volunteer-page)
     * [Adoption Page](#Adoption-page)
@@ -68,6 +67,11 @@ To get started with the Furry Folks Foundation website, simply visit https://mou
 
 1. Navigate effortlessly through the website to learn about available pet adoption opportunities, educational resources, and ways to get involved.
 2. Find easily accessible contact information to inquire about pet adoption, volunteering, or making donations.
+
+* As a returning visitor, I want to:
+
+1. Discover newly listed pets available for adoption, ensuring that I have access to the latest information.
+2. Explore updated content about the Furry Folks Foundation's achievements, initiatives, and success stories, reinforcing my continued support and involvement with the organization.
    
 ## Design
 
@@ -100,108 +104,74 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 
 ## Features
 
-### Home Page 
+### Home Page Header 
+[Home Page Header](assets/images-and-videos/header.png)
 
+* The header of the Home Page prominently displays the FFF logo alongside the navigation menu, providing users with easy access to explore the website.
+
+### Home Page 
 ![Home Page](assets/images-and-videos/home_page.png)
 
 * The Home Page is the initial gateway to our website, featuring a captivating animal video and an emotional slogan aimed at fostering connection and empathy. A prominent "Join Us" button invites immediate action, guiding users to explore further. Heartwarming animal stories and essential navigation links complete the immersive experience.  <br>
 [Live Page Here](https://mouneeshwarip.github.io/furry-folks-foundation/index.html)
 
-### Navigation Menu
+### About us section
+![About Section](assets/images-and-videos/about_us.png)
 
-![Navigation Menu](./assets/images/readme-images/navigation-menu.jpg)
-* At the top of the website, users can find a fixed navigation menu that is fully responsive in all devices. In this navigation menu users can navigate to the different pages in the website. They can also see the Travel World logo on the left side. <br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html)
+* The "About Us" section is dedicated to conveying our mission and values, providing visitors with insight into the core principles that drive our organization's work. Through concise and engaging content, we strive to articulate our commitment to animal welfare and outline the goals we aim to achieve. This section serves as a window into our ethos, fostering trust and connection with our audience.
 
-### Home Page Header
+### Footer
+![Footer](assets/images-and-videos/footer.png)
 
-![Home Page Header](./assets/images/readme-images/home-page-header-image.jpg)
-* In this feature users can see a travel image as a background followed by some services provided by the company. It is advertising cost savings to the user by booking a trip with Travel World. <br>
-[Live Page Here](https://pedrocristo.github.io/portfolio_project_1/home.html)
+* In the footer section, users can find our contact information, including our address and phone number, facilitating easy communication with our team. Additionally, we provide links to our social media platforms, enabling visitors to stay updated on our latest news and initiatives and fostering a sense of community engagement.
 
-### About Section
+### Volunteer Page
+![Volunteer Page](assets/images-and-videos/vol_page.png)
 
-![About Section](./assets/images/readme-images/home-page-about-section.jpg)
+* On the Volunteer page, two vibrant images featuring animals are paired with playful "kids" font style, expressing the animals' desire for volunteers to assist with services such as cleaning and dog walking. These images aim to engage visitors and evoke a sense of joy and responsibility.
 
-* In this feature users have access to information about the company, for example the company's main purpose, its history, mission statement, and also the benefits of working for Travel World. <br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#about-section)
+* Following this, two additional images showcase volunteers sharing their experiences, adding a personal touch to the page. These images serve to inspire potential volunteers by highlighting the meaningful connections and rewarding experiences that volunteering with us can offer.
 
-### Banner Section 1 - Bali
+### Adoption Page
+![Adoption Page](assets/images-and-videos/adoption_page.png)
 
-![Banner Section 1](./assets/images/readme-images/home-page-banner-section-1.jpg)
+* The Adoption page features a captivating banner image showcasing animals ready for adoption, inviting visitors to explore the possibilities of welcoming a new furry friend into their homes. Below the banner, a user-friendly adoption form awaits, allowing prospective adopters to provide essential information.
 
-* This feature is a highlight banner where the user can see a travel deal and book the trip by clicking on ' Book now' and it will allow the user to ring the  
-  Travel World office.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-bali)
-
-### Top Trips Section
-
-![Top Trips Section](./assets/images/readme-images/home-page-top-trips-section.jpg)
-
-* This feature is a cards section where the top travel deals are displayed with information about the city, country, price, hotel name, hotel stars and duration of stay (number of days and nights). The card has a button where the user can book. When the user hovers over this, the box-shadow changes.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#top-trips)
-
-### Banner Section 2 - Maldives 
-
-![Banner Section 2](./assets/images/readme-images/home-page-banner-section-2.jpg)
-
-* This feature has the same purpose as the Top Trip Section. A modification to this section is when the user hovers over the card the user can zoom in on the image.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-maldivas)
-
-### City Breaks Section
-
-![City Breaks Section](./assets/images/readme-images/home-page-city-trips-section.jpg)
-
-* This feature has the same purpose as the Top Trip Section. The difference  is when the card is hovered by the user the image zoom in.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#city-trips)
-
-### Partners Section
-
-![Partners Section](./assets/images/readme-images/home-page-partners-section.jpg)
-
-* In this section users can see partners and companies that Travel World work with.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#partners-section)
-
-### Footer Section
-
-![Footer Section](./assets/images/readme-images/home-page-footer-image.jpg)
-
-* This feature is called the Footer Section. Here users can see information about the company's schedule and contact Travel World through the social media links. The copyright message is displayed on the bottom.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#footer)
+* Upon submitting the adoption form, users are seamlessly redirected to a Thank You page, expressing our gratitude for their interest in adopting and providing reassurance that their submission has been received. This page serves as a warm acknowledgment of their commitment to giving an animal a loving home.
 
 ### Contact Page
+![Contact Page](assets/images-and-videos/contact_page.png)
 
-![Contact Page](./assets/images/readme-images/contact-page.jpg)
+* The Contact page offers users a convenient contact form, enabling them to submit their details for communication purposes effortlessly. This form serves as a streamlined way for visitors to reach out to us with inquiries, feedback, or any other communication needs. By providing a user-friendly interface, we aim to facilitate seamless interaction and ensure that users can easily connect with our team.
 
-* In this page users can contact the Travel World via a contact form. The contact form requires the user's first name, last name, email and message. The user can also see the location of the Travel World office on Google Maps.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/contact.html)
+###Thanks Page
+![Thnaks Page](assets/images-and-videos/thanks_page.png)
 
-### Thanks Page
-
-![Contact Page](./assets/images/readme-images/thanks-page.jpg)
-
-* Once the user successfully submits a contact form, they will land on the 'Thanks' Page. When the button is clicked it brings the users back to the contact form.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/thanks-page.html)
+* Upon submitting the adoption or contact form, users will be directed to the Thank You page, where they will receive a warm acknowledgment for their submission and their interest in our organization. This page serves as a gesture of appreciation, reassuring users that their messages have been received and highlighting our gratitude for their engagement with us.
 
 ## Future Features
+
+### Virtual Adoption Events 
+
+ * Through video conferencing technology, users can schedule virtual meet-and-greet sessions with adoptable animals, facilitating meaningful interactions and helping them make informed adoption decisions.
+   
   
-### Customer Review Section
+### Online Pet Training classes
 
-* Add a Customer Review Section in the Home page. This would allow users to offer suggestions on how to improve the website and display customers' experiences and their opinions of Travel World.
-
+* Online Pet Training Classes! Access expert-led training sessions conveniently from home. Stay tuned for a tailored curriculum designed to enhance your bond with your furry friend.
 
 ## Technologies Used
 
 ### Languages Used 
 
-* [HTML5](https://en.wikipedia.org/wiki/HTML5).
-* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
-* [Bootstrap](https://getbootstrap.com/).
+* HTML is used to create the stucture of the website and
+* CSS is used to style the site.
+
 
 ### Frameworks - Libraries - Programs Used
 
 * [Google Fonts:](https://fonts.google.com/)
-   * Google fonts were used to import the 'Poppins' and 'El Messiri' fonts throughout the style.css.
+   * Google fonts were used to import the 'Roboto', 'Schoolbell' and 'Rampart One' fonts throughout the style.css.
 * [Font Awesome:](https://fontawesome.com/)
     * Font Awesome are used as an icons for user UX purposes.
 * [Git](https://git-scm.com/)
@@ -217,43 +187,13 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmouneeshwarip.github.io%2Ffurry-folks-foundation%2F)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmouneeshwarip.github.io%2Ffurry-folks-foundation%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
-The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
-
-* Responsive on all device sizes between 280px - 2600px wide
-
-* Devices tested using the Google Developer Tools emulator
-
-    * BlackBerry Z30 (360px x 640px)  
-    * BlackBerry PlayBook (600px x 1024px)  
-    * Samsung Galaxy Note 3 (360px x 640px) 
-    * Samsung Galaxy S3 (360px x 640px)   
-    * Samsung Galaxy S9+(320px x 658px) 
-    * LG Optimus L70 (384px x 640px)
-    * Microsoft Lumia 550 (640px x 360px) 
-    * Microsoft Lumia 950 (360px x 640px) 
-    * Nexus 4 (384px x 640px) 
-    * Nokia Lumia 520 (320px x 533px) 
-    * Nokia N9 (480px x 854px) 
-    * Pixel 3 (393px x 786px)
-    * Apple iPad Mini (468px x 4024)
-    * Apple iPhone 4 (320px x 480px)
-    * Apple iPhone 5/S (320px 568px)
-    * Apple iPhone 6/7/8 (375px x 667px)
-    * Apple iPhone 6/7/8 Plus (414px x 736px)
-    * Apple iPhone X (375px x 812px)
-
-* Desktop Results:
-
-  ![Lighthouse Destop Result](./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg).
-
-* Mobile Results:
-
-  ![Lighthouse Mobile Result](./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg).
+The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome.
+* Responsive on all device sizes.
 
    ## Functionality
 * All links have been hovered and clicked to ensure accessibility.
@@ -261,18 +201,17 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 * All social media links work correctly and open on a new tab.
 * All images load on each page as intended.
 * All the buttons are working correctly and bring the users to the function that they were built for.
-* The arrows inside the buttons in Landing Page, Thanks Page and Homepage banners, has a fully functional opacity animation.
-* Both the buttons in Homepage cards and in the Contact Page change the background and text color when hovered by the user. They are working without issues.
-* The cards in the Homepage "top trips", change the box shadow when hovered by the user, working correctly.
-* The cards in the Homepage "city breaks", has an image zoom in effect when hovered by the users, working correctly.
+* All the buttons in Homepage, adoption page and in the Contact Page change the background and text color when hovered by the user. They are working without issues.
 
    ## Bugs
 
-* I was unable to add padding to the arrow default in the form select.
+* Navbar Menu Adjustment: Initially, I encountered difficulty adjusting the navbar menu without it dropping. However, through debugging, I successfully resolved this issue, ensuring smooth navigation for users.
 
+* Large Image and Video Sizes: Another challenge arose when images and videos appeared excessively large. With guidance from my mentor, I tackled this issue effectively, optimizing the sizes to enhance website performance and user experience.
+   
    ## Website Development Issues
 
-* At the initial stages of my project, I made an error when using Git Commit. Following my first call with my mentor he clarified how to do it and I have followed his recommended approach.
+* The website was not properly responsive in iPad view. After thorough testing and adjustments, the responsive design issues were resolved, ensuring a consistent user experience across devices.
 
 ## Deployment of This Project
 
@@ -317,24 +256,30 @@ The website development was created in the "main" branch. This branch was deploy
 * [W3Schools](https://www.w3schools.com/).
 
 * [Stack Overflow](https://stackoverflow.com/).
+
+* Some Youtube videos
   
 
 ## Content
 
-* All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088).
-
+* All the text content is original. 
 ### Images
 
-* All images were provided and used under the Unsplash licence [Unsplash.com](https://unsplash.com/license).
+* All images used in the Furry Folks Foundation website were sourced from Google Images and Pexels. Below are the addresses (URLs) of the image sources:
 
+Google Images: (https://www.google.com/imghp)
+Pexels: (https://www.pexels.com/)
 ### Video
 
-* The video was provided and used under the Pexels licence [Unsplash.com](https://www.pexels.com/video/aerial-view-of-an-infinity-pool-in-maldives-beach-resorts-4069480/).
+* The video used in the Furry Folks Foundation website was sourced from Pexels Videos. Below is the address (URL) of the video source:
 
-### Trust Section Icons
+Pexels Videos: (https://www.pexels.com/videos/)
+### Icons
 
-* All the icons were provided and used under the Icons8 licence [Icons8.com](https://icons8.com/icons/set/best-price).
+*All icons used in the Furry Folks Foundation website were sourced from FontAwesome ( https://fontawesome.com/).
   
 ## Special Thanks
 
- * Special thanks to my mentor Sandeep Aggarwal, my colleagues at Code Institute, Kasia Bogucka and Mairéad Gillic for their assistance throughout this project.
+ * My husband and my son: For providing incredible support and encouragement throughout the development process.
+ * Fellow students: For their collaboration, feedback, and camaraderie during the project journey.
+ * Mentor: A heartfelt thank you to my mentor for his guidance and patience in resolving last-minute doubts and challenges.
