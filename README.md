@@ -27,7 +27,7 @@ To get started with the Furry Folks Foundation website, simply visit https://mou
 * [Features](#features)  
     * [Home Page Header](#home-page-header)
     * [Home Page](#home-page)
-    * [About Section](#aboutus-section)
+    * [Our Mission Section](#Our Mission-section)
     * [Footer Section](#footer-section)
     * [Volunteer Page](#Volunteer-page)
     * [Adoption Page](#Adoption-page)
@@ -54,6 +54,7 @@ To get started with the Furry Folks Foundation website, simply visit https://mou
  ### User Stories
 
 * As a website creator, I want to:
+
 1. Design a visually appealing website that conveys the mission and values of the Furry Folks Foundation, encouraging visitors to engage with our cause.
 2. Create an intuitive and user-friendly navigation system that allows users to easily access information about pet adoption, volunteering services, community events, and donation opportunities.
 
@@ -65,19 +66,17 @@ To get started with the Furry Folks Foundation website, simply visit https://mou
 
 * As a visitor, I want to:
 
-1. Navigate effortlessly through the website to learn about available pet adoption opportunities, educational resources, and ways to get involved.
+1. Navigate effortlessly through the website to learn about available pet adoption opportunities and ways to get involved.
 2. Find easily accessible contact information to inquire about pet adoption, volunteering, or making donations.
 
 * As a returning visitor, I want to:
 
-1. Discover newly listed pets available for adoption, ensuring that I have access to the latest information.
-2. Explore updated content about the Furry Folks Foundation's achievements, initiatives, and success stories, reinforcing my continued support and involvement with the organization.
-   
+1. Engage with adoption and volunteering activities by filling the respective forms and providing my data for the same.
+
 ## Design
 
 ### Website Structure
-Furry Folks Foundation website is a five pages site: Home Page, Volunteer Page, Adoption Page, Contact Page and Thanks Page. The default loading page is the Home Page and it is linked to the other pages by a button. The Home Page has 6 sections: (1) 
-Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success stories, (6) Footer. This page, is linked to all the pages in the website by the Navigation Menu on the top. The Volunteer Page has the Menu at the top and 2 sections: (1) Volunteer opportunities , (2) Volunteer Experiences (3) Footer. The Adoption page has 3 sections (1) Banner (2) Adoption Form (3)Footer. The Contact Page has 2 sections (1) Contact Form (2) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
+Furry Folks Foundation website is a five pages site: Home Page, Volunteer Page, Adoption Page, Contact Page and Thanks Page. The default loading page is the Home Page and it is linked to the other pages by a button. The Home Page has 6 sections: (1) Header, (2) Quote section, (3) Hero video , (4) Our Mission section, (5) success stories, (6) Footer. This page, is linked to all the pages in the website by the Navigation Menu on the top. The Volunteer Page has the Menu at the top and 4 sections: (1) Header (2) Volunteer opportunities , (3) Volunteer Experiences (4) Footer. The Adoption page has 4 sections: (1) Header (2) Banner (3) Adoption Form (4)Footer. The Contact Page has 3 sections: (1) Header (2) Contact Form (3) Footer. The Thanks Page has 3 sections: (1) Header (2) 'Thanks' message and (3) Footer.
 
 #### Colour Scheme
  ![Home Page](assets/images-and-videos/colorpal.jpeg)
@@ -86,7 +85,7 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 #### Typography
 * Roboto, sans-serif is the main font for the whole website.
 * Rampart One, sans-serif is the logo font in the header.
-* Schoolbell, sans-serif is the playful font for animal side stories to add some extra touch and friendly approach.
+* Schoolbell, sans-serif is the playful font for animal side stories to add an innocent child-like touch and friendly approach.
          
 #### Imagery
 * Three images are used on the home page with easily loadable file sizes.
@@ -99,7 +98,7 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 
 ### Interactive Links  
 
-* At the bottom of the Home Page and in the footer, users can access the social media links (Facebook and Twitter). Clicking on these icons opens the respective social media platforms in a new tab.
+* At the bottom of the Home Page and in the footer, users can access the social media links (Facebook, Instagram, Youtube and Twitter). Clicking on these icons opens the respective social media platforms in a new tab.
 * On the video, clicking the "Join Us" button directly redirects users to the volunteer page for further engagement.
 
 ## Features
@@ -107,7 +106,7 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 ### Home Page Header 
 [Home Page Header](assets/images-and-videos/header.png)
 
-* The header of the Home Page prominently displays the FFF logo alongside the navigation menu, providing users with easy access to explore the website.
+* The header of the Home Page prominently displays the Furry Folks Foundation(FFF) logo alongside the navigation menu, providing users with easy access to explore the website.
 
 ### Home Page 
 ![Home Page](assets/images-and-videos/homepage_screenshot.png)
@@ -115,10 +114,10 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 * The Home Page is the initial gateway to our website, featuring a captivating animal video and an emotional slogan aimed at fostering connection and empathy. A prominent "Join Us" button invites immediate action, guiding users to explore further. Heartwarming animal stories and essential navigation links complete the immersive experience.  <br>
 [Live Page Here](https://mouneeshwarip.github.io/furry-folks-foundation/index.html)
 
-### About us section
-![About Section](assets/images-and-videos/about_us.png)
+###  Our Mission section
+![Our Mission Section](assets/images-and-videos/about_us.png)
 
-* The "About Us" section is dedicated to conveying our mission and values, providing visitors with insight into the core principles that drive our organization's work. Through concise and engaging content, we strive to articulate our commitment to animal welfare and outline the goals we aim to achieve. This section serves as a window into our ethos, fostering trust and connection with our audience.
+* The "Our Mission" section is dedicated to conveying our mission and values, providing visitors with insight into the core principles that drive our organization's work. Through concise and engaging content, we strive to articulate our commitment to animal welfare and outline the goals we aim to achieve. This section serves as a window into our ethos, fostering trust and connection with our audience.
 
 ### Footer
 ![Footer](assets/images-and-videos/footer.png)
@@ -144,8 +143,8 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 
 * The Contact page offers users a convenient contact form, enabling them to submit their details for communication purposes effortlessly. This form serves as a streamlined way for visitors to reach out to us with inquiries, feedback, or any other communication needs. By providing a user-friendly interface, we aim to facilitate seamless interaction and ensure that users can easily connect with our team.
 
-###Thanks Page
-![Thnaks Page](assets/images-and-videos/thanks_page.png)
+### Thanks Page
+![Thanks Page](assets/images-and-videos/thanks_page.png)
 
 * Upon submitting the adoption or contact form, users will be directed to the Thank You page, where they will receive a warm acknowledgment for their submission and their interest in our organization. This page serves as a gesture of appreciation, reassuring users that their messages have been received and highlighting our gratitude for their engagement with us.
 
@@ -181,8 +180,7 @@ Header, (2) Quote section, (3) Hero video , (4) About us section, (5) success st
 * [PIXLR:](https://pixlr.com/pt/)
     * PIXLR was used to create, modify and resize all images on this website.
 * [Canva](https://www)
-    * Canva was used to creat the image logo, favicon and also the office image.
-  
+    * Favicon Generator was used to create favicon.
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -280,6 +278,9 @@ Pexels Videos: (https://www.pexels.com/videos/)
   
 ## Special Thanks
 
+ * Mentor: A heartfelt thanks to my mentor who supported right from getting the first ideas in place to  the last stages of my project helping me debugging the final errors being a constant source of motivation throughout.
+
  * My husband and my son: For providing incredible support and encouragement throughout the development process.
+ 
  * Fellow students: For their collaboration, feedback, and camaraderie during the project journey.
- * Mentor: A heartfelt thank you to my mentor for his guidance and patience in resolving last-minute doubts and challenges.
+ 
